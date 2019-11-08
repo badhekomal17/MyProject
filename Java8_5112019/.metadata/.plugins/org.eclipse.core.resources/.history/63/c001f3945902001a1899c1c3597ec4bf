@@ -1,0 +1,16 @@
+package com.zensar;
+
+interface StudentInterface{
+	public int Show(String s);
+}
+
+public class StudentData {
+
+	public static void main(String[] args) {
+		/*
+		 * StudentInterface stud = (String s) -> {return s.lenght();}; int count = stud.
+		 */
+
+	}
+
+}

@@ -1,0 +1,21 @@
+package com.zensar;
+
+import java.time.LocalDate;
+import java.time.Month;
+
+public class dateTimeTest {
+
+	public static void main(String[] args) {
+		
+		// System Current Date
+		LocalDate dt = LocalDate.now();
+		System.out.println(dt);
+		
+		// Here of() is factory Method
+		// Perticular year-month-date
+		LocalDate date=LocalDate.of(1999, Month.OCTOBER, 17);
+		System.out.println(date);
+
+	}
+
+}

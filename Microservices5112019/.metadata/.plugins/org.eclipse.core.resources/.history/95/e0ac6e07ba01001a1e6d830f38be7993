@@ -1,0 +1,11 @@
+eureka.client.register-with-eureka=false
+eureka.client.fetch-registry=false
+
+spring.application.name=config-client-app
+server.port=8052
+
+#Register with discovert
+spring.cloud.discovery.enabled=true
+
+#To set profiles
+spring.profiles.active=prod

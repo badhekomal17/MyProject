@@ -1,0 +1,13 @@
+package com.zensar.goodByeservice;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class GoodByeServiceApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(GoodByeServiceApplication.class, args);
+	}
+
+}

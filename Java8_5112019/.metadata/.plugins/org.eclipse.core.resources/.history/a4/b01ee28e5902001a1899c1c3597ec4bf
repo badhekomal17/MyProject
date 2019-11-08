@@ -1,0 +1,10 @@
+package com.zensar;
+
+public class predictTest {
+
+	public static void main(String[] args) {
+		int[] n= {1,2,4,6,7,9,5}; 
+
+	}
+
+}

@@ -1,0 +1,26 @@
+package com.zensar;
+
+import java.time.LocalDate;
+import java.time.Month;
+
+public class dateTimeTest {
+
+	public static void main(String[] args) {
+		
+		// System Current Date
+		LocalDate dt = LocalDate.now();
+		System.out.println("Current System Date:- " +dt);
+		
+		LocalDate newdt = dt.plusDays(4);
+		System.out.println("" +newdt);
+		
+		// Here of() is factory Method
+		// Particular year-month-date
+		LocalDate date=LocalDate.of(1999, Month.OCTOBER, 17);
+		System.out.println(date);
+		
+		
+
+	}
+
+}

@@ -1,0 +1,5 @@
+package com.zensar.configclient;
+
+public class ConfigClientProperties {
+
+}

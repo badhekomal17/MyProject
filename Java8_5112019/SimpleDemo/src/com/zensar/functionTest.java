@@ -1,0 +1,25 @@
+package com.zensar;
+
+import java.util.function.Function;
+
+public class functionTest {
+
+	public static void main(String[] args) {
+		
+		int[] numbers= {4,1,5,8,7,9,6};
+		
+		Function<Integer,Integer> f1=(Integer i1)->{
+			if(i1%2==0)
+				return i1;
+			
+			return 0;
+			
+		};
+		
+		for(int i:numbers) 
+		{
+			System.out.println(f1.apply(i));
+		}
+	}
+
+}

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aop-reference-model>
+<aop-project name="config-client"/>
+<aop-project name="weather-client"/>
+<aop-project name="discovery-server"/>
+<aop-project name="config-server"/>
+<aop-project name="gateway-service"/>
+<aop-project name="goodBye-service"/>
+<aop-project name="weather-service"/>
+<aop-project name="hello-service"/>
+<aop-project name="service"/>
+<aop-project name="client"/>
+</aop-reference-model>

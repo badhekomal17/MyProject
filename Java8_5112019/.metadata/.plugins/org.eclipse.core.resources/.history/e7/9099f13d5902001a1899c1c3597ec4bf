@@ -1,0 +1,18 @@
+package com.zensar;
+
+import java.time.LocalDate;
+import java.time.Month;
+
+public class dateTimeTest {
+
+	public static void main(String[] args) {
+		
+		LocalDate dt = LocalDate.now();
+		
+		System.out.println(dt);
+		
+		LocalDate.of(1999, Month.OCTOBER, dayOfMonth)
+
+	}
+
+}

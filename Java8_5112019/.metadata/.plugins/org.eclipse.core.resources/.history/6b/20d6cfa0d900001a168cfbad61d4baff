@@ -1,0 +1,14 @@
+package com.zensar;
+
+interface Student{
+	public int Show(String s);
+}
+
+public class StudentData {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}
